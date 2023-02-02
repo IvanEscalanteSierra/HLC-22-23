@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %} Todos los articulos {% endblock %}
+{% block content %}
+  <p>Articulo con id {{articulo.id}} se ha actualizado:</p>
+  <p>Precio: {{articulo.precio}}</p>
+  <p>Seccion: {{articulo.seccion}}</p>
+  <p>Nombre: {{articulo.nombre}}</p>
+  {% endblock %}
